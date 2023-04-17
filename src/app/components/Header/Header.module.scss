@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 94px;
+  background-color: floralwhite;
+
+
+  .logo {
+    flex-direction: column;
+  }
+
+  .links ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .links ul li {
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    color:red;
+  }
+
+  .links li :hover {
+    color: rgb(213,12,83);
+  }
+}
